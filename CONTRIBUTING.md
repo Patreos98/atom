@@ -249,7 +249,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### JavaScript Styleguide
 
-All JavaScript code is linted with [Prettier](https://prettier.io/).
+All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com/).
 
 * Prefer the object spread operator (`{...anotherObj}`) to `Object.assign()`
 * Inline `export`s with expressions whenever possible

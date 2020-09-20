@@ -8,7 +8,6 @@ temp.track()
 
 module.exports = ({logFile, headless, testPaths, buildAtomEnvironment}) ->
   window[key] = value for key, value of require '../vendor/jasmine'
-
   require 'jasmine-tagged'
 
   # Rewrite global jasmine functions to have support for async tests.
